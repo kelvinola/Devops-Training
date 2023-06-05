@@ -1,3 +1,4 @@
 This project is to illustrate the implementation of LAMP stack technology which is the combination of the linux operating system, the apache webserver, mysql for the database to store our information and the langauage PHP. The combination of all these technology help to develop a software product. 
 For this project, we need to have an aws account for our cloud infrastructure and from there we can use various kinds of linux operating systems that aws provides for use. A very good understanding of the linux command is highly needed for this project to be able to navigate through the terminal while configuring our webservers and databases.
 first thing first is to log in to your aws account with the valid credentials then spin up an EC2 instance which is our virtual server or machine. 
+<img width="1440" alt="Screenshot 2023-06-05 at 13 20 27" src="https://github.com/kelvinola/Devops-Training/assets/115745653/ccc050b9-e72e-418e-a320-10e6bd9b571c">
