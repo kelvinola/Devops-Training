@@ -19,3 +19,13 @@ create a keypair and for this instance for security reasons and download it to y
 now it is time to connect to our instance on our local machine or terminal
 
 we can easily achieve that by selecting the instance that we launched and click the connect button whic will lead us to this page 
+
+
+<img width="1440" alt="Screenshot 2023-06-05 at 14 05 01" src="https://github.com/kelvinola/Devops-Training/assets/115745653/c3fff3a6-bb60-48f9-9dd5-54b3ca2f9ffb">
+
+
+copy what is under the example and save it somewhere so that you can paste it on to your local machine.
+
+on your local machine, change your directory into the download folder where your keypair was downloaded into and paste the instance so that you can connect to your instance from your computer. 
+
+
