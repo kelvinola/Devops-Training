@@ -50,5 +50,11 @@ The first thing is install our webserver annd for this project the webserver of 
 
 Use $ sudo apt install apache2 toinstall apache 
 
+
+<img width="1440" alt="Screenshot 2023-06-05 at 14 50 25" src="https://github.com/kelvinola/Devops-Training/assets/115745653/2e780689-eaac-4f74-aa37-93abe020a96b">
+
+
 run sudo systemctl status apache2 to check the status of the webserver that had just been installed. 
 
+
+<img width="1440" alt="Screenshot 2023-06-05 at 14 50 44" src="https://github.com/kelvinola/Devops-Training/assets/115745653/733f63a2-2fd2-4211-b73d-001117411961">
