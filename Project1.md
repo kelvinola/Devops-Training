@@ -58,3 +58,10 @@ run sudo systemctl status apache2 to check the status of the webserver that had 
 
 
 <img width="1440" alt="Screenshot 2023-06-05 at 14 50 44" src="https://github.com/kelvinola/Devops-Training/assets/115745653/733f63a2-2fd2-4211-b73d-001117411961">
+
+Our server is working fine which is a good sign that everything is going on good so far 
+
+another way of ensuring that our webserver is running, is by copying the public ip of our virtual machine and run it on the internet browser to see if the apache page will come up but before we do that we have to make sure that our http port in our security group opened in order for the webpage to show 
+
+
+
