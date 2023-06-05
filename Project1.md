@@ -68,4 +68,4 @@ another way of ensuring that our webserver is running, is by copying the public 
 
 
 
-
+<img width="1440" alt="Screenshot 2023-06-05 at 15 35 16" src="https://github.com/kelvinola/Devops-Training/assets/115745653/b6d2e7b1-0433-45b4-8959-b2813940a60f">
