@@ -37,3 +37,18 @@ now ive been able to connect to my virtual machine that was launch on aws in my 
 the first thing to do after connecting to the terminal is to update the server using the $ sudo apt update
 
 to avoid confusion, it is a good practice to name your server in order to differentiate the different works that you could be doing 
+
+
+
+<img width="1440" alt="Screenshot 2023-06-05 at 14 21 22" src="https://github.com/kelvinola/Devops-Training/assets/115745653/7194ad79-65fa-4338-904e-ab526ced43e3">
+
+
+Now it is time to dive into the real work!
+
+
+The first thing is install our webserver annd for this project the webserver of choice is apache http server which is a widely used server software. it is a open source software the is available for free, it is fast, reliable and secure. 
+
+Use $ sudo apt install apache2 toinstall apache 
+
+run sudo systemctl status apache2 to check the status of the webserver that had just been installed. 
+
