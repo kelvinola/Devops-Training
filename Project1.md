@@ -29,3 +29,11 @@ copy what is under the example and save it somewhere so that you can paste it on
 on your local machine, change your directory into the download folder where your keypair was downloaded into and paste the instance so that you can connect to your instance from your computer. 
 
 
+<img width="1440" alt="Screenshot 2023-06-05 at 14 11 15" src="https://github.com/kelvinola/Devops-Training/assets/115745653/b7d0a5a7-3923-499a-a542-ff55ba550b2b">
+
+
+now ive been able to connect to my virtual machine that was launch on aws in my personal computer's terminal.
+
+the first thing to do after connecting to the terminal is to update the server using the $ sudo apt update
+
+to avoid confusion, it is a good practice to name your server in order to differentiate the different works that you could be doing 
