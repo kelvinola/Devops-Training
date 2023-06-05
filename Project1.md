@@ -46,6 +46,8 @@ to avoid confusion, it is a good practice to name your server in order to differ
 Now it is time to dive into the real work!
 
 
+STEP 1 INSTALLING APACHE SERVER 
+
 The first thing is install our webserver annd for this project the webserver of choice is apache http server which is a widely used server software. it is a open source software the is available for free, it is fast, reliable and secure. 
 
 Use $ sudo apt install apache2 to install apache 
@@ -73,3 +75,12 @@ copy the publiic ip from aws and paste it to your web browser and add :80 behind
 
 
 <img width="1440" alt="Screenshot 2023-06-05 at 15 35 16" src="https://github.com/kelvinola/Devops-Training/assets/115745653/b6d2e7b1-0433-45b4-8959-b2813940a60f">
+
+
+STEP 2 INSTALLING MYSQL 
+
+
+now that my web server is running , the next thing to do is to install a database management system that will be able to store and manage our data for the website in a relational database. mysql is a very popular database management system which is used within the php envirnoment. 
+
+
+i installed mysql with $ sudo apt install mysql-server
