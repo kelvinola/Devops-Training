@@ -6,3 +6,8 @@ First thing first is to log in to your aws account with the valid credentials th
 <img width="1440" alt="Screenshot 2023-06-05 at 13 20 27" src="https://github.com/kelvinola/Devops-Training/assets/115745653/ccc050b9-e72e-418e-a320-10e6bd9b571c">
 
 After clicking "launch an instance" give the instance a name and then select the kind of operating system that you want and in this case we would be using the ubuntu linux distro 
+
+
+<img width="1440" alt="Screenshot 2023-06-05 at 13 29 40" src="https://github.com/kelvinola/Devops-Training/assets/115745653/10e5a0d3-903d-45e5-b2dd-f7e38ca03722">
+
+create a keypair and for this instance for security reasons and download it to your computer. Create a security group for the firewall, allow ssh traffic from anywhere; make sure the number of instance is 1 and now you can finally launch the instance. 
