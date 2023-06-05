@@ -48,7 +48,7 @@ Now it is time to dive into the real work!
 
 The first thing is install our webserver annd for this project the webserver of choice is apache http server which is a widely used server software. it is a open source software the is available for free, it is fast, reliable and secure. 
 
-Use $ sudo apt install apache2 toinstall apache 
+Use $ sudo apt install apache2 to install apache 
 
 
 <img width="1440" alt="Screenshot 2023-06-05 at 14 50 25" src="https://github.com/kelvinola/Devops-Training/assets/115745653/2e780689-eaac-4f74-aa37-93abe020a96b">
@@ -65,6 +65,10 @@ another way of ensuring that our webserver is running, is by copying the public 
 
 
 <img width="1440" alt="Screenshot 2023-06-05 at 15 30 02" src="https://github.com/kelvinola/Devops-Training/assets/115745653/4f40ab50-31e0-4080-a5f4-f8c83cc81a66">
+
+
+
+copy the publiic ip from aws and paste it to your web browser and add :80 behind the ip address and apache default page should come up.
 
 
 
