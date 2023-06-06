@@ -120,3 +120,15 @@ for this project, we will need to set up a domain called projectlamp. by default
 
 
 Then, create and open a new configuration file in Apache’s sites-available directory using your preferred command-line editor.
+
+
+<img width="1440" alt="Screenshot 2023-06-05 at 21 16 38" src="https://github.com/kelvinola/Devops-Training/assets/115745653/8284a686-195c-4547-90b6-cae8127ff33a">
+
+
+With this VirtualHost configuration, we’re telling Apache to serve projectlamp using /var/www/projectlampl as its web root directory. If you would like to test Apache without a domain name, you can remove or comment out the options ServerName and ServerAlias by adding a # character in the beginning of each option’s lines. Adding the # character there will tell the program to skip processing the instructions on those lines.
+
+You can now use a2ensite command to enable the new virtual host:
+
+
+
+
