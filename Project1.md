@@ -189,6 +189,7 @@ This will open a blank file. Add the following text, which is valid PHP code, in
 phpinfo();
 
 
+<img width="1440" alt="Screenshot 2023-06-05 at 21 50 23" src="https://github.com/kelvinola/Devops-Training/assets/115745653/08ef960f-7cf7-4424-b1cf-e59fe2e1d7a3">
 
 
 
