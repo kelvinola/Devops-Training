@@ -157,6 +157,44 @@ sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/met
 
 
 
+<img width="1440" alt="Screenshot 2023-06-05 at 21 39 49" src="https://github.com/kelvinola/Devops-Training/assets/115745653/ea19d449-8684-4c44-8d16-b49db12e21f3">
+
+
+STEP 5 ENABLING PHP ON THE WEBSITE 
+
+
+With the default DirectoryIndex settings on Apache, a file named index.html will always take precedence over an index.php file. This is useful for setting up maintenance pages in PHP applications, by creating a temporary index.html file containing an informative message to visitors. Because this page will take precedence over the index.php page, it will then become the landing page for the application. Once maintenance is over, the index.html is renamed or removed from the document root, bringing back the regular application page.
+
+
+
+In case you want to change this behavior, you’ll need to edit the /etc/apache2/mods-enabled/dir.conf file and change the order in which the index.php file is listed within the DirectoryIndex directive:
+
+sudo vim /etc/apache2/mods-enabled/dir.conf
+
+
+
+After saving and closing the file, you will need to reload Apache so the changes take effect:
+
+sudo systemctl reload apache2
+Finally, we will create a PHP script to test that PHP is correctly installed and configured on your server.
+
+Now that you have a custom location to host your website’s files and folders, we’ll create a PHP test script to confirm that Apache is able to handle and process requests for PHP files.
+
+Create a new file named index.php inside your custom web root folder:
+
+vim /var/www/projectlamp/index.php
+This will open a blank file. Add the following text, which is valid PHP code, inside the file:
+
+<?php
+phpinfo();
+
+
+
+
+
+
+
+
 
 
 
