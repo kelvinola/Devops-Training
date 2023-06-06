@@ -89,3 +89,14 @@ i installed mysql with $ sudo apt install mysql-server
 
 
 then run sudo mysql 
+
+
+<img width="1440" alt="Screenshot 2023-06-05 at 20 09 14" src="https://github.com/kelvinola/Devops-Training/assets/115745653/cba53edb-9279-4e38-9484-a2cefddd73d9">
+
+
+
+STEP 3 INSTALLING PHP 
+
+PHP is the component of our setup that will process code to display dynamic content to the end user but in addition for the PHP to work we have to install the php-mysql which is the module that allows php to communicate with mysql based databases. the libapache2-mod-php module will enable apache to handle php files. 
+
+to install php and the module  $ sudo apt install php libapache2-mod-php php-mysql
