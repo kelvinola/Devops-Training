@@ -129,6 +129,14 @@ With this VirtualHost configuration, we’re telling Apache to serve projectlamp
 
 You can now use a2ensite command to enable the new virtual host:
 
+<img width="1440" alt="Screenshot 2023-06-05 at 21 27 18" src="https://github.com/kelvinola/Devops-Training/assets/115745653/2e1d772f-614f-4865-af30-ec562decbe43">
+
+
+You might want to disable the default website that comes installed with Apache. This is required if you’re not using a custom domain name, because in this case Apache’s default configuration would overwrite your virtual host. To disable Apache’s default website use a2dissite command , type:
+
+
+
+
 
 
 
