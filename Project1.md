@@ -191,13 +191,21 @@ phpinfo();
 
 
 
+<img width="1440" alt="Screenshot 2023-06-05 at 21 50 23" src="https://github.com/kelvinola/Devops-Training/assets/115745653/9bfd874b-644c-46ff-8455-18ca059caadd">
 
 
 
 
+This page provides information about your server from the perspective of PHP. It is useful for debugging and to ensure that your settings are being applied correctly.
 
 
 
+If you can see this page in your browser, then your PHP installation is working as expected.
+
+After checking the relevant information about your PHP server through that page, it’s best to remove the file you created as it contains sensitive information about your PHP environment -and your Ubuntu server. You can use rm to do so:
+
+sudo rm /var/www/projectlamp/index.php
+You can always recreate this page if you need to access the information again later.
 
 
 
