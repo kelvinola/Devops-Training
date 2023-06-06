@@ -138,7 +138,27 @@ You might want to disable the default website that comes installed with Apache. 
 <img width="1440" alt="Screenshot 2023-06-05 at 21 30 59" src="https://github.com/kelvinola/Devops-Training/assets/115745653/e1532377-ea9e-4c24-8d3d-d58c51feed9a">
 
 
-using the cponfigtest command to make sure that the syntax is ok in the configuration 
+using the configtest command to make sure that the syntax is ok in the configuration 
+
+
+
+<img width="1440" alt="Screenshot 2023-06-05 at 21 33 23" src="https://github.com/kelvinola/Devops-Training/assets/115745653/bbf3a21e-fb40-4e4d-a940-e90c7c1ca85a">
+
+
+Finally, reload Apache so these changes take effect:
+
+sudo systemctl reload apache2
+
+
+Your new website is now active, but the web root /var/www/projectlamp is still empty. Create an index.html file in that location so that we can test that the virtual host works as expected:
+
+sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html
+
+
+
+
+
+
 
 
 
