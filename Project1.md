@@ -114,3 +114,9 @@ To check what version of php you installed then use the php -v command
 STEP 4 Creating a virtual host for your website using apache
 
 for this project, we will need to set up a domain called projectlamp. by default apache has one server block enabled but we will ignore that and add our own configurations by creating our own directory and call it projectlamp and change ownership of the directory using the chown command 
+
+
+<img width="1440" alt="Screenshot 2023-06-05 at 21 12 28" src="https://github.com/kelvinola/Devops-Training/assets/115745653/d362ee49-a29c-47a7-aa26-aa514e257871">
+
+
+Then, create and open a new configuration file in Apache’s sites-available directory using your preferred command-line editor.
