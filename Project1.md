@@ -106,3 +106,11 @@ to install php and the module  $ sudo apt install php libapache2-mod-php php-mys
 
 
 To check what version of php you installed then use the php -v command 
+
+
+<img width="1440" alt="Screenshot 2023-06-05 at 20 26 35" src="https://github.com/kelvinola/Devops-Training/assets/115745653/98c364b2-0630-4bc4-858e-18f1acf3f366">
+
+
+STEP 4 Creating a virtual host for your website using apache
+
+for this project, we will need to set up a domain called projectlamp. by default apache has one server block enabled but we will ignore that and add our own configurations by creating our own directory and call it projectlamp and change ownership of the directory using the chown command 
