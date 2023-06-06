@@ -135,6 +135,16 @@ You can now use a2ensite command to enable the new virtual host:
 You might want to disable the default website that comes installed with Apache. This is required if you’re not using a custom domain name, because in this case Apache’s default configuration would overwrite your virtual host. To disable Apache’s default website use a2dissite command , type:
 
 
+<img width="1440" alt="Screenshot 2023-06-05 at 21 30 59" src="https://github.com/kelvinola/Devops-Training/assets/115745653/e1532377-ea9e-4c24-8d3d-d58c51feed9a">
+
+
+using the cponfigtest command to make sure that the syntax is ok in the configuration 
+
+
+
+
+
+
 
 
 
