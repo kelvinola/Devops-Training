@@ -84,3 +84,8 @@ now that my web server is running , the next thing to do is to install a databas
 
 
 i installed mysql with $ sudo apt install mysql-server
+
+<img width="1440" alt="Screenshot 2023-06-05 at 19 54 14" src="https://github.com/kelvinola/Devops-Training/assets/115745653/fd2f3535-457a-4687-a7f5-3ee9920da4ac">
+
+
+then run sudo mysql 
