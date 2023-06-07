@@ -160,7 +160,7 @@ Your LEMP stack is now fully configured. In the next step, we’ll create a PHP 
     
     
     
-    Step 5 – Testing PHP with Nginx
+Step 5 – Testing PHP with Nginx
 Your LEMP stack should now be completely set up.
 
 At this point, your LAMP stack is completely installed and fully operational.
@@ -179,3 +179,9 @@ You can now access this page in your web browser by visiting the domain name or 
 http://`server_domain_or_IP`/info.php
 You will see a web page containing detailed information about your server:
 
+
+
+<img width="1440" alt="Screenshot 2023-06-07 at 14 35 28" src="https://github.com/kelvinola/Devops-Training/assets/115745653/2b85fe1a-4f51-40e8-ab15-c30a92577e80">
+
+
+![Screenshot 2023-06-07 at 14 35 28 (2)](https://github.com/kelvinola/Devops-Training/assets/115745653/09041b0f-0a51-47b3-9855-b5c67f2289f5)
