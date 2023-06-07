@@ -29,3 +29,10 @@ For the page to be able to show on the internet browser, we need to open port 80
 
 
 After opening the port 80, You can copy the public ip address from aws and paste it into your internet browser and the nginx page should come up like this 
+
+![Screenshot 2023-06-07 at 13 40 06 (2)](https://github.com/kelvinola/Devops-Training/assets/115745653/30df246b-ded7-4000-ae21-ee39cbc348da)
+
+
+Now that our webserver is up and running, it is now time to install our database that will keep our information and data 
+
+
