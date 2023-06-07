@@ -192,11 +192,6 @@ phpinfo();
 
 
 
-
-<img width="1440" alt="Screenshot 2023-06-05 at 21 50 23" src="https://github.com/kelvinola/Devops-Training/assets/115745653/08ef960f-7cf7-4424-b1cf-e59fe2e1d7a3">
-
-
-
 This page provides information about your server from the perspective of PHP. It is useful for debugging and to ensure that your settings are being applied correctly.
 
 
@@ -214,6 +209,11 @@ After checking the relevant information about your PHP server through that page,
 
 sudo rm /var/www/projectlamp/index.php
 You can always recreate this page if you need to access the information again later.
+
+
+
+<img width="1440" alt="Screenshot 2023-06-05 at 21 50 23" src="https://github.com/kelvinola/Devops-Training/assets/115745653/08ef960f-7cf7-4424-b1cf-e59fe2e1d7a3">
+
 
 
 
