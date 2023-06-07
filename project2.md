@@ -64,3 +64,13 @@ To install these 2 packages at once, run:
 sudo apt install php-fpm php-mysql
 
 
+<img width="1440" alt="Screenshot 2023-06-07 at 14 12 06" src="https://github.com/kelvinola/Devops-Training/assets/115745653/57b91d6d-1885-4680-803c-df57b2a06159">
+
+
+Step 4 — Configuring Nginx to Use PHP Processor
+When using the Nginx web server, we can create server blocks (similar to virtual hosts in Apache) to encapsulate configuration details and host more than one domain on a single server. In this guide, we will use projectLEMP as an example domain name.
+
+On Ubuntu 20.04, Nginx has one server block enabled by default and is configured to serve documents out of a directory at /var/www/html. While this works well for a single site, it can become difficult to manage if you are hosting multiple sites. Instead of modifying /var/www/html, we’ll create a directory structure within /var/www for the your_domain website, leaving /var/www/html in place as the default directory to be served if a client request does not match any other sites.
+
+
+
