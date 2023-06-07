@@ -36,3 +36,8 @@ After opening the port 80, You can copy the public ip address from aws and paste
 Now that our webserver is up and running, it is now time to install our database that will keep our information and data 
 
 
+
+<img width="1440" alt="Screenshot 2023-06-07 at 13 54 36" src="https://github.com/kelvinola/Devops-Training/assets/115745653/f1459379-f999-4419-8c1c-117b8af31c01">
+
+
+after installing mysql, you will need to create a root user and give the root a password for access, after that exit from mysql 
