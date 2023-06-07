@@ -10,7 +10,7 @@ After launching the instance and connecting to the instance from your local comp
 <img width="1440" alt="Screenshot 2023-06-07 at 12 59 26" src="https://github.com/kelvinola/Devops-Training/assets/115745653/e416927a-30bb-4682-8ecf-c1d82d3bc48e">
 
 
-then use the sudo apt install nginx -y to install nginx iinto your virtual server and the -y is there to answer yes for any question that might come up while installing the webserver. 
+Then use the sudo apt install nginx -y to install nginx iinto your virtual server and the -y is there to answer yes for any question that might come up while installing the webserver. 
 
 
 
@@ -22,4 +22,10 @@ After the installation has been completed, it also a good practice to check the 
 
 <img width="1440" alt="Screenshot 2023-06-07 at 13 01 21" src="https://github.com/kelvinola/Devops-Training/assets/115745653/593e9fd0-68ba-45e2-b79a-17736ee6ed38">
 
-for the page to be able to show on the internet browser, we need to open port 80 in our securuity group on aws 
+For the page to be able to show on the internet browser, we need to open port 80 in our securuity group on aws 
+
+
+<img width="1440" alt="Screenshot 2023-06-07 at 13 31 53" src="https://github.com/kelvinola/Devops-Training/assets/115745653/a53ce088-8a0b-4f1f-9c05-47cfacb1e9c9">
+
+
+After opening the port 80, You can copy the public ip address from aws and paste it into your internet browser and the nginx page should come up like this 
