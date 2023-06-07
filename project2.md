@@ -197,15 +197,20 @@ This will give the example_user user full privileges over the example_database d
 
 Now exit the MySQL shell with:
 
+
 mysql> exit
 You can test if the new user has the proper permissions by logging in to the MySQL console again, this time using the custom user credentials:
+
 
 mysql -u example_user -p
 Notice the -p flag in this command, which will prompt you for the password used when creating the example_user user. After logging in to the MySQL console, confirm that you have access to the example_database database:
 
+
 mysql> SHOW DATABASES;
 
 This will give you the following output:
+
+
 
 Output
 +--------------------+
@@ -216,6 +221,8 @@ Output
 +--------------------+
 2 rows in set (0.000 sec)
 Next, we’ll create a test table named todo_list. From the MySQL console, run the following statement:
+
+
 
 
 CREATE TABLE example_database.todo_list (item_id INT AUTO_INCREMENT,content VARCHAR(255),PRIMARY KEY(item_id));
