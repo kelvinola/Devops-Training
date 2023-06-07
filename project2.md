@@ -7,6 +7,9 @@ This project is basically the same as project 1 but this time around a different
 After launching the instance and connecting to the instance from your local computer, it is always a good practice to update your server using the sudo apt update command 
 
 
+STEP 1
+
+
 <img width="1440" alt="Screenshot 2023-06-07 at 12 59 26" src="https://github.com/kelvinola/Devops-Training/assets/115745653/e416927a-30bb-4682-8ecf-c1d82d3bc48e">
 
 
@@ -33,6 +36,9 @@ After opening the port 80, You can copy the public ip address from aws and paste
 ![Screenshot 2023-06-07 at 13 40 06 (2)](https://github.com/kelvinola/Devops-Training/assets/115745653/30df246b-ded7-4000-ae21-ee39cbc348da)
 
 
+STEP 2
+
+
 Now that our webserver is up and running, it is now time to install our database that will keep our information and data 
 
 
@@ -41,3 +47,20 @@ Now that our webserver is up and running, it is now time to install our database
 
 
 after installing mysql, you will need to create a root user and give the root a password for access, after that exit from mysql 
+
+
+<img width="1440" alt="Screenshot 2023-06-07 at 13 58 50" src="https://github.com/kelvinola/Devops-Training/assets/115745653/7f38a54f-0fcb-416b-81f9-bcd107d7de5b">
+
+
+STEP 3
+
+
+You have Nginx installed to serve your content and MySQL installed to store and manage your data. Now you can install PHP to process code and generate dynamic content for the web server.
+
+While Apache embeds the PHP interpreter in each request, Nginx requires an external program to handle PHP processing and act as a bridge between the PHP interpreter itself and the web server. This allows for a better overall performance in most PHP-based websites, but it requires additional configuration. You’ll need to install php-fpm, which stands for “PHP fastCGI process manager”, and tell Nginx to pass PHP requests to this software for processing. Additionally, you’ll need php-mysql, a PHP module that allows PHP to communicate with MySQL-based databases. Core PHP packages will automatically be installed as dependencies.
+
+To install these 2 packages at once, run:
+
+sudo apt install php-fpm php-mysql
+
+
