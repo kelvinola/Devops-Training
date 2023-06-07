@@ -14,3 +14,9 @@ then use the sudo apt install nginx -y to install nginx iinto your virtual serve
 
 
 
+<img width="1440" alt="Screenshot 2023-06-07 at 13 00 25" src="https://github.com/kelvinola/Devops-Training/assets/115745653/e5eea5f6-79cf-47d3-b7a0-c94ebe581e90">
+
+
+After the installation has been completed, it also a good practice to check the status of your webserver to check whether it is active and running by using the sudo systemctl status nginx 
+
+
