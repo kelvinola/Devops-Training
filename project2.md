@@ -1,6 +1,5 @@
 LEMP Implementation. 
 
-
 This project is basically the same as project 1 but this time around a different webserver called nginx is begin used to serve our webbpage to the public. 
 
 
@@ -9,12 +8,10 @@ After launching the instance and connecting to the instance from your local comp
 
 STEP 1
 
-
 <img width="1440" alt="Screenshot 2023-06-07 at 12 59 26" src="https://github.com/kelvinola/Devops-Training/assets/115745653/e416927a-30bb-4682-8ecf-c1d82d3bc48e">
 
 
 Then use the sudo apt install nginx -y to install nginx iinto your virtual server and the -y is there to answer yes for any question that might come up while installing the webserver. 
-
 
 
 <img width="1440" alt="Screenshot 2023-06-07 at 13 00 25" src="https://github.com/kelvinola/Devops-Training/assets/115745653/e5eea5f6-79cf-47d3-b7a0-c94ebe581e90">
@@ -73,7 +70,6 @@ When using the Nginx web server, we can create server blocks (similar to virtual
 On Ubuntu 20.04, Nginx has one server block enabled by default and is configured to serve documents out of a directory at /var/www/html. While this works well for a single site, it can become difficult to manage if you are hosting multiple sites. Instead of modifying /var/www/html, we’ll create a directory structure within /var/www for the your_domain website, leaving /var/www/html in place as the default directory to be served if a client request does not match any other sites.
 
 
-
 Create the root web directory for your_domain as follows:
 
 sudo mkdir /var/www/projectLEMP
@@ -109,16 +105,6 @@ server {
 
 }
 
-
-Here’s what each of these directives and location blocks do:
-
-listen — Defines what port Nginx will listen on. In this case, it will listen on port 80, the default port for HTTP.
-root — Defines the document root where the files served by this website are stored.
-index — Defines in which order Nginx will prioritize index files for this website. It is a common practice to list index.html files with a higher precedence than index.php files to allow for quickly setting up a maintenance landing page in PHP applications. You can adjust these settings to better suit your application needs.
-server_name — Defines which domain names and/or IP addresses this server block should respond for. Point this directive to your server’s domain name or public IP address.
-location / — The first location block includes a try_files directive, which checks for the existence of files or directories matching a URI request. If Nginx cannot find the appropriate resource, it will return a 404 error.
-location ~ \.php$ — This location block handles the actual PHP processing by pointing Nginx to the fastcgi-php.conf configuration file and the php7.4-fpm.sock file, which declares what socket is associated with php-fpm.
-location ~ /\.ht — The last location block deals with .htaccess files, which Nginx does not process. By adding the deny all directive, if any .htaccess files happen to find their way into the document root ,they will not be served to visitors.
 When you’re done editing, save and close the file. If you’re using nano, you can do so by typing CTRL+X and then y and ENTER to confirm.
 
 Activate your configuration by linking to the config file from Nginx’s sites-enabled directory:
@@ -158,8 +144,7 @@ You can leave this file in place as a temporary landing page for your applicatio
 
 Your LEMP stack is now fully configured. In the next step, we’ll create a PHP script to test that Nginx is in fact able to handle .php files within your newly configured website.
     
-    
-      
+          
 Step 5 – Testing PHP with Nginx
 Your LEMP stack should now be completely set up.
 
@@ -180,7 +165,5 @@ You can now access this page in your web browser by visiting the domain name or 
 
 http://`server_domain_or_IP`/info.php
 You will see a web page containing detailed information about your server:
-
-
 
 <img width="1440" alt="Screenshot 2023-06-07 at 14 35 28" src="https://github.com/kelvinola/Devops-Training/assets/115745653/2b85fe1a-4f51-40e8-ab15-c30a92577e80">
