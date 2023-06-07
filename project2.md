@@ -278,3 +278,9 @@ You can now access this page in your web browser by visiting the domain name or 
 
 http://<Public_domain_or_IP>/todo_list.php
 You should see a page like this, showing the content you’ve inserted in your test table:
+
+
+<img width="1440" alt="Screenshot 2023-06-07 at 17 50 27" src="https://github.com/kelvinola/Devops-Training/assets/115745653/f704d1a8-6bfe-4f63-9ff6-d1ce9ce37abb">
+
+![Screenshot 2023-06-07 at 17 50 27 (2)](https://github.com/kelvinola/Devops-Training/assets/115745653/679cc531-0a7f-4b02-acaa-6e005cfe27f1)
+
