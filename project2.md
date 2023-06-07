@@ -20,3 +20,6 @@ then use the sudo apt install nginx -y to install nginx iinto your virtual serve
 After the installation has been completed, it also a good practice to check the status of your webserver to check whether it is active and running by using the sudo systemctl status nginx 
 
 
+<img width="1440" alt="Screenshot 2023-06-07 at 13 01 21" src="https://github.com/kelvinola/Devops-Training/assets/115745653/593e9fd0-68ba-45e2-b79a-17736ee6ed38">
+
+for the page to be able to show on the internet browser, we need to open port 80 in our securuity group on aws 
