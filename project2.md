@@ -147,3 +147,35 @@ Now go to your browser and try to open your website URL using IP address:
 http://<Public-IP-Address>:80
   
   
+<img width="1440" alt="Screenshot 2023-06-07 at 14 27 00" src="https://github.com/kelvinola/Devops-Training/assets/115745653/217854da-c29f-45d6-b61d-de401d27529e">
+    
+    
+![Screenshot 2023-06-07 at 14 28 13 (2)](https://github.com/kelvinola/Devops-Training/assets/115745653/b43f7fe9-54b4-48b7-bc35-89273605b6c9)
+
+    
+    You can leave this file in place as a temporary landing page for your application until you set up an index.php file to replace it. Once you do that, remember to remove or rename the index.html file from your document root, as it would take precedence over an index.php file by default.
+
+Your LEMP stack is now fully configured. In the next step, we’ll create a PHP script to test that Nginx is in fact able to handle .php files within your newly configured website.
+    
+    
+    
+    
+    Step 5 – Testing PHP with Nginx
+Your LEMP stack should now be completely set up.
+
+At this point, your LAMP stack is completely installed and fully operational.
+
+You can test it to validate that Nginx can correctly hand .php files off to your PHP processor.
+
+You can do this by creating a test PHP file in your document root. Open a new file called info.php within your document root in your text editor:
+
+sudo nano /var/www/projectLEMP/info.php
+Type or paste the following lines into the new file. This is valid PHP code that will return information about your server:
+
+<?php
+phpinfo();
+You can now access this page in your web browser by visiting the domain name or public IP address you’ve set up in your Nginx configuration file, followed by /info.php:
+
+http://`server_domain_or_IP`/info.php
+You will see a web page containing detailed information about your server:
+
