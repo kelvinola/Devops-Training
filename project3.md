@@ -1,4 +1,4 @@
-SIMPLE TO-DO APPLICATION ON MERN WEB STACK
+# SIMPLE TO-DO APPLICATION ON MERN WEB STACK
 
 MERN Web stack consists of following components:
 
