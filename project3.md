@@ -1,6 +1,6 @@
 # SIMPLE TO-DO APPLICATION ON MERN WEB STACK
 
-MERN Web stack consists of following components:
+## MERN Web stack consists of following components:
 
 1. MongoDB: A document-based, No-SQL database used to store application data in a form of documents.
 
