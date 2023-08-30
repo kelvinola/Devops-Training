@@ -1,9 +1,9 @@
 ## MEAN STACK DEPLOYMENT TO UBUNTU IN AWS
 MEAN stack is a combination of following component 
-1. ** mongoDB ** ( Document database) - stores and allows to retrieve data.
-2. ** Express ** ( Back-end application framework) - makes request to database for reads and writes 
-3. ** angular** ( Frontend application framework)- Handles client and server requests. 
-4. ** Node.js** (Javascript runtime environment) - Accepts requests and displays results to end user. 
+1. **mongoDB** ( Document database) - stores and allows to retrieve data.
+2. **Express** ( Back-end application framework) - makes request to database for reads and writes 
+3. **angular** ( Frontend application framework)- Handles client and server requests. 
+4. **Node.js** (Javascript runtime environment) - Accepts requests and displays results to end user. 
 
 # The goal of this project is to immplement a simple book register web using MEAN stack. 
 
@@ -11,24 +11,25 @@ MEAN stack is a combination of following component
 
 Node.js is a javascript runtime buuilt on chrome's V8 Javascript engine. Node.js is used in this tutorial to set up the Express routes and AngularJS controllers. 
 
-**Update ubuntu**
+-**Update ubuntu**
 
 *sudo apt update*
 
 <img width="1185" alt="Screenshot 2023-08-30 at 12 11 55" src="https://github.com/kelvinola/Devops-Training/assets/115745653/91f3061b-0914-47a8-b815-a8f82818eef0">
 
-**Upgrade ubuntu**
+-**Upgrade ubuntu**
 
 *sudo apt upgrade -y*
 <img width="1096" alt="Screenshot 2023-08-30 at 12 13 13" src="https://github.com/kelvinola/Devops-Training/assets/115745653/8501f39d-9aca-4b9a-9323-32c2175aa1ae">
 
-**Add certificates**
+-**Add certificates**
 
 *sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates*
 <img width="1317" alt="Screenshot 2023-08-30 at 12 14 10" src="https://github.com/kelvinola/Devops-Training/assets/115745653/0c156815-2f73-4d15-b976-b3bbac3cd662">
 
 *curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -*
-**Install NodeJS**
+
+-**Install NodeJS**
 
 *sudo apt install -y nodejs*
 <img width="1087" alt="Screenshot 2023-08-30 at 12 14 42" src="https://github.com/kelvinola/Devops-Training/assets/115745653/99f85ad6-ef43-4eff-98e1-9f0651d798eb"> 
@@ -111,9 +112,12 @@ sudo npm install express mongoose
 In ‘Books’ folder, create a folder named apps
 
 *mkdir apps && cd apps*
+
 Create a file named routes.js
 
 *vi routes.js*
+
+
 Copy and paste the code below into routes.js
 
 <img width="1440" alt="Screenshot 2023-08-30 at 18 15 48" src="https://github.com/kelvinola/Devops-Training/assets/115745653/77897520-7627-46fa-8037-62308d04bdfe">
@@ -121,9 +125,13 @@ Copy and paste the code below into routes.js
 In the ‘apps’ folder, create a folder named models
 
 *mkdir models && cd models*
+
+
 Create a file named book.js
 
 *vi book.js*
+
+
 Copy and paste the code below into ‘book.js’
 
 var mongoose = require('mongoose');
@@ -146,12 +154,18 @@ AngularJS provides a web framework for creating dynamic views in your web applic
 Change the directory back to ‘Books’
 
 *cd ../..*
+
+
 Create a folder named public
 
 *mkdir public && cd public*
+
+
 Add a file named script.js
 
 *vi script.js*
+
+
 Copy and paste the Code below (controller configuration defined) into the script.js file.
 
 <img width="1440" alt="Screenshot 2023-08-30 at 18 21 17" src="https://github.com/kelvinola/Devops-Training/assets/115745653/cd1de032-ace3-4dcd-a791-b9465cbf749b">
@@ -165,9 +179,13 @@ In public folder, create a file named index.html;
 Change the directory back up to Books
 
 *cd ..*
+
+
 Start the server by running this command:
 
 *node server.js*
+
+
 The server is now up and running, we can connect it via port 3300. You can launch a separate Putty or SSH console to test what curl command returns locally.
 
 curl -s http://localhost:3300
